@@ -15,4 +15,6 @@ print('{}년 {}월 {}일'.format(xmas.year,xmas.month,xmas.day))
 nd = func_module_as.date_now()
 print(nd)
 
-func_module_as.remain_date()
+re_date = func_module_as.remain_date_input(10,20)
+
+print(re_date)
